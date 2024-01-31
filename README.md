@@ -12,5 +12,8 @@ Il [progetto originale](https://replit.com/@MatteoBagnolett/Algoritmi-di-schedul
 
 ## Licenza d'uso
 Questo progetto ('JobSchedulerJS') e tutte le sue versioni sono rilasciate sotto la [MB General Copyleft License](LICENSE).
-Alcuni file esterni (come `hamburger.js`) potrebbero essere rilasciati sotto altre licenze.
-I file `style.css`, `color-scheme.js` e porzioni di `index.html` sono rilasciati sotto la licenza del progetto di origine (vedi [MB MBHB Proprietary License](https://github.com/matbagnoletti/HomeBanking/blob/main/LICENSE)).
+
+> [!CAUTION]
+> 
+> - Alcuni file esterni (come `hamburger.js`) potrebbero essere rilasciati sotto altre licenze.
+> - I file `style.css`, `color-scheme.js` e porzioni di `index.html` sono rilasciati sotto la licenza del progetto di origine (vedi [MB MBHB Proprietary License](https://github.com/matbagnoletti/HomeBanking/blob/main/LICENSE)).
