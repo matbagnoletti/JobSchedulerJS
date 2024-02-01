@@ -592,7 +592,7 @@ header{
     left: 0;
     z-index: 999;
     -webkit-backdrop-filter: saturate(180%) blur(20px);
-    backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(100px);
     max-width: 1600px;
     column-gap: 2rem;
     overflow-x: hidden;
@@ -877,7 +877,7 @@ a {
 
 .mb-button{
     min-width: 100px;;
-    color: var(--color-white);
+    color: var(--mb-bc-1);
     background: var(--mb-bc-highlight-gradient);
     opacity: .8;
     border: 0;
@@ -1007,6 +1007,51 @@ a {
 
 .cookie-banner-buttons{
     margin-top: 1rem;
+}
+
+.section {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.section:hover span {
+    opacity: 1;
+    font-size: 1.25em;
+}
+
+.mb-section-title {
+    font-weight: 600;
+    font-size: 1.3em;
+    margin-bottom: 1rem;
+    border-bottom: thin solid var(--mb-b-color-2);
+    width: 100%;
+    color: var(--mb-fc-text-2);
+    text-decoration: none;
+}
+
+.section span {
+    color: var(--mb-fc-highlight);
+    opacity: 0;
+    font-size: 1.25em;
+    position: relative;
+    width: 0;
+    left: -1.1rem;
+}
+
+.section-body {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: justify;
+}
+
+a.docs {
+    color: var(--mb-fc-highlight);
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 /* ==========================================================================

@@ -1,0 +1,3 @@
+# configurazione Apache per il sito web
+DirectoryIndex index.html # pagina di default
+ErrorDocument 404 /404.html # pagina di errore 404
